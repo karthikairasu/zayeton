@@ -83,6 +83,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 10px solid #3d3c3c;
+    box-shadow: 0 0 4px 4px #5a5a5a, 0 0 4px 4px #a6a6a6;
 }
 /*--------------------------------------------------------------
 # restaurant
@@ -96,6 +97,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 10px solid #3d3c3c;
+    box-shadow: 0 0 4px 4px #5a5a5a, 0 0 4px 4px #a6a6a6;
 }
 /*--------------------------------------------------------------
 # pharmacy
@@ -109,6 +111,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 10px solid #3d3c3c;
+    box-shadow: 0 0 4px 4px #5a5a5a, 0 0 4px 4px #a6a6a6;
 }
 /*--------------------------------------------------------------
 # laundry
@@ -122,6 +125,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 10px solid #3d3c3c;
+    box-shadow: 0 0 4px 4px #5a5a5a, 0 0 4px 4px #a6a6a6;
 }
 /*--------------------------------------------------------------
 # contact
@@ -134,4 +138,5 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 0 4px 4px #5a5a5a, 0 0 4px 4px #a6a6a6;
 }
