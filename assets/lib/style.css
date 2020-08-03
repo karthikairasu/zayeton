@@ -1,0 +1,137 @@
+/*--------------------------------------------------------------
+    # General
+    --------------------------------------------------------------*/
+    body {
+      font-family: "Open Sans", sans-serif;
+    }
+
+    a {
+      color: #3fbbc0;
+    }
+
+    a:hover {
+      color: #65c9cd;
+      text-decoration: none;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Roboto", sans-serif;
+    }
+    /*--------------------------------------------------------------
+    # Preloader
+    --------------------------------------------------------------*/
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    #preloader:before {
+      content: "";
+      position: fixed;
+      top: calc(50% - 30px);
+      left: calc(50% - 30px);
+      border: 6px solid #3fbbc0;
+      border-top-color: #ecf8f9;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      -webkit-animation: animate-preloader 1s linear infinite;
+      animation: animate-preloader 1s linear infinite;
+    }
+
+    @-webkit-keyframes animate-preloader {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes animate-preloader {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .sd{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    @media (max-width: 768.98px){
+  
+    }
+    .bg-darkgray{
+      background-color: #607D8B!important;
+    }
+/*--------------------------------------------------------------
+# feature
+--------------------------------------------------------------*/
+.feature{
+  position: relative;
+}
+.feature_bg{
+    background: linear-gradient(rgba(140,140,140,.0), rgba(140,140,140,.0)),url('../images/wal.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #3d3c3c;
+}
+/*--------------------------------------------------------------
+# restaurant
+--------------------------------------------------------------*/
+.restaurant{
+  position: relative;
+}
+.restaurant_bg{
+    background: linear-gradient(rgba(140,140,140,.0), rgba(140,140,140,.0)),url('../images/wal2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #3d3c3c;
+}
+/*--------------------------------------------------------------
+# pharmacy
+--------------------------------------------------------------*/
+.pharmacy{
+  position: relative;
+}
+.pharmacy_bg{
+    background: linear-gradient(rgba(140,140,140,.0), rgba(140,140,140,.0)),url('../images/wal3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #3d3c3c;
+}
+/*--------------------------------------------------------------
+# laundry
+--------------------------------------------------------------*/
+.laundry{
+  position: relative;
+}
+.laundry_bg{
+    background: linear-gradient(rgba(140,140,140,.0), rgba(140,140,140,.0)),url('../images/wal4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #3d3c3c;
+}
+/*--------------------------------------------------------------
+# contact
+--------------------------------------------------------------*/
+.contact{
+  position: relative;
+}
+.contact_bg{
+    background: linear-gradient(rgba(140,140,140,.0), rgba(140,140,140,.0)),url('../images/contact.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
